@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(185, 247, 156);
+  }
+  
+  .navbar-background {
+    background-color: rgb(185, 247, 156);
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(209, 9, 35);
+  }
+
+  .home-text {
+    color: rgba(61, 95, 187, 0.911);
+    font-size: 35px;
+  }
+
+  /* Grid for Doodler */
+  .grid {
+    width: 400px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+  }
+/* 
+  doodler character */
+  .doodler {
+    width: 60px;
+    height: 85px;
+    background-color: red;
+    position: absolute;
+  }
+
+  /* platforms */
+  .platform {
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+  }
+  
