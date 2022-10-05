@@ -52,3 +52,24 @@ body {
     /* background-color: green; */
   }
   
+  /* Grid for snake */
+  .grid2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: flex;
+    border-style: solid;
+  }
+
+  .grid2 div {
+    width: 20px;
+    height: 20px;
+  }
+
+  .snake {
+    background-color: blue;
+  }
+
+  .apple {
+    background-color: purple;
+  }
