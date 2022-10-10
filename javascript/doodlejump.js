@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     constructor(newPlatBottom) {
       this.left = Math.random() * 315
       this.bottom = newPlatBottom
+      // this.visual = document.createElement('div')
       this.visual = document.createElement('div')
 
       const visual = this.visual
