@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('.grid')
   const doodler = document.createElement('div')
+  const resetBtn = document.querySelector("#resetBtn")
   let isGameOver = false
   let speed = 3
   let platformCount = 5
@@ -159,11 +160,11 @@ function fall() {
   //assign functions to keyCodes
   function control(e) {
     doodler.style.bottom = doodlerBottomSpace + 'px'
-    if(e.key === 'ArrowLeft') {
+    if(e.key === 'a') {
       moveLeft()
-    } else if (e.key === 'ArrowRight') {
+    } else if (e.key === 'd') {
       moveRight()
-    } else if (e.key === 'ArrowUp') {
+    } else if (e.key === 'w') {
       moveStraight()
     }
   }
